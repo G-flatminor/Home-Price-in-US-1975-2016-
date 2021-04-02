@@ -1,6 +1,6 @@
 # HOME PRICE PRICE CHANGE IN US FROM 1975 TO 2016
 
-## PROJECT: VISUALIZE THE US HOUSING PRICES OVER YERS (1975-2016)
+## PROJECT: VISUALIZE THE US HOUSING PRICES OVER YEARS (1975-2016)
 + I would like to visualize the US housing price data for each state
 + Base data was available at Kaggle.com (lists US housing market index data available to the public)
 [ushouseprice](https://www.kaggle.com/PythonforSASUsers/hpindex)
@@ -98,7 +98,7 @@ We will create a new dataframe with the annual home price for each state by year
       df.columns = ['price', 'year','state']
       df.to_csv('House Price List.csv')
    
-## New data frame
+## New data frame (State, Year, Annual price)
 
 The new dataframe was created.
 Currently, the new frame has homeprice for each state by month/year. So we need to calculate average home price.
@@ -329,7 +329,26 @@ The result is as follows:
 
       [51 rows x 42 columns]
 
+## Home price visualization 1
 
+      plt.plot(df.year[df.state == 'NC'], df.price[df.state == 'NC'],color='blue')
+      plt.plot(df.year[df.state == 'SC'], df.price[df.state == 'SC'],color ='orange')
+      plt.plot(df.year[df.state == 'GA'], df.price[df.state == 'GA'],color ='r')
+      plt.plot(df.year[df.state == 'VA'], df.price[df.state == 'VA'],color ='g')
+      plt.plot(df.year[df.state == 'TN'], df.price[df.state == 'TN'],color ='olive')
+      plt.plot(df.year[df.state == 'AL'], df.price[df.state == 'AL'],color ='springgreen')
+      plt.plot(df.year[df.state == 'AR'], df.price[df.state == 'AR'],color ='pink')
+      plt.plot(df.year[df.state == 'MS'], df.price[df.state == 'MS'],color ='sienna')
+      plt.plot(df.year[df.state == 'FL'], df.price[df.state == 'FL'],color ='gray')
+
+      plt.grid()
+      plt.legend(['NC','SC','GA','VA','TN','AL','AR','MS','FL'])
+      plt.title('Southern States Home Price')
+      
+      US home price.png
+
+
+      
 
 
 
