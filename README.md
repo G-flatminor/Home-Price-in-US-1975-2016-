@@ -54,16 +54,47 @@
     9. Index nsa (non-seasonally adjusted price, numerical)
     10. Index sa (seasonally adjusted price, numerical)
 
- ## Data cleaning
+## Data cleaning
    We need only the following 3 items:
+   
       + State
       + Year
       + Price (annual average)
 
-
+      home_prices = HPI['index_nsa']
+      years = HPI.yr.unique()
+      years =sorted(years)
+      print(years)
     
+      [1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000,                  
+      2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]
 
-
+   This table contains the data between 1975 and 2016.
+   We will create a new dataframe with the annual home price for each state by year.
+  
+      price_list = []
+      for i in years:
+            yearly_ave = HPI.index_nsa[HPI.yr == i].mean()
+            price_list.append(yearly_ave)
+      price_list = np.array(price_list)       
+      level_unique = HPI.level.unique()
+      states = HPI.place_name[HPI.level == 'State'].unique()
+      states = np.array(states)
+      
+      houseprice_ave = []
+      year_of_ave = []
+      state_name = []
+      for i in sorted(HPI.place_id.unique()):
+            for j in sorted(HPI.yr.unique()):
+                  ave_price = HPI.index_nsa[HPI.level =='State'][HPI.place_id == i][HPI.yr ==j].mean()
+                  houseprice_ave.append(ave_price)
+                  year_of_ave.append(j)
+                  state_name.append(i)
+      
+      df = pd.DataFrame([houseprice_ave, year_of_ave,state_name]).T
+      df.columns = ['price', 'year','state']
+      df.to_csv('House Price List.csv')
+   
 
 
 
