@@ -42,7 +42,7 @@
       index_sa      float64
       dtype: object
 
-## Data (10 variables)
+### Data (10 variables in original dataframe)
     1. HPI type (categorical: developmental, traditional, non-metro, distress-free)
     2. HPI flavor (categorical: all-transactions, expanded-area, purchase-only)
     3. Freequency (categorical: monthly, quarterly)
