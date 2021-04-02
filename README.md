@@ -345,10 +345,61 @@ The result is as follows:
       plt.legend(['NC','SC','GA','VA','TN','AL','AR','MS','FL'])
       plt.title('Southern States Home Price')
 
-US home price.png
+![SouthernStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437235-4a026780-93b4-11eb-807d-ec87152a5397.png)
 
+      plt.plot(df.year[df.state == 'DE'], df.price[df.state == 'DE'],color='yellowgreen')
+      plt.plot(df.year[df.state == 'NJ'], df.price[df.state == 'NJ'],color='b')
+      plt.plot(df.year[df.state == 'NY'], df.price[df.state == 'NY'],color='springgreen')
+      plt.plot(df.year[df.state == 'PA'], df.price[df.state == 'PA'],color='red')
+      plt.plot(df.year[df.state == 'VT'], df.price[df.state == 'VT'],color='m')
+      plt.plot(df.year[df.state == 'CT'], df.price[df.state == 'CT'],color='cyan')
+      plt.plot(df.year[df.state == 'RI'], df.price[df.state == 'RI'],color='purple')
+      plt.plot(df.year[df.state == 'MA'], df.price[df.state == 'MA'],color='orange')
+      plt.plot(df.year[df.state == 'NH'], df.price[df.state == 'NH'],color='olive')
 
-      
+      plt.grid()
+      plt.legend(['DE','NJ','NY','PA','VT','CT','RI','MA','NH'])
+      plt.title('Northern States Home Price')
 
+![NothernStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437537-c9903680-93b4-11eb-8811-f548c9a1d74e.png)
 
+      plt.plot(df.year[df.state == 'WA'], df.price[df.state == 'WA'],color='yellowgreen')
+      plt.plot(df.year[df.state == 'OR'], df.price[df.state == 'OR'],color='b')
+      plt.plot(df.year[df.state == 'CA'], df.price[df.state == 'CA'],color='springgreen')
+      plt.plot(df.year[df.state == 'ND'], df.price[df.state == 'ND'],color='m')
+      plt.plot(df.year[df.state == 'AR'], df.price[df.state == 'AR'],color='cyan')
+      plt.plot(df.year[df.state == 'UT'], df.price[df.state == 'UT'],color='orange')
+
+      plt.legend(['WA','OR','CA','NM','AR','UT'])
+      plt.title('Western States Home Price')
+      plt.grid()
+
+![WesternStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437580-dd3b9d00-93b4-11eb-812e-16ced84b1626.png)
+
+      plt.plot(df.year[df.state == 'TX'], df.price[df.state == 'TX'],color='yellowgreen')
+      plt.plot(df.year[df.state == 'NM'], df.price[df.state == 'NM'],color='b')
+      plt.plot(df.year[df.state == 'OK'], df.price[df.state == 'OK'],color='springgreen')
+      plt.plot(df.year[df.state == 'CO'], df.price[df.state == 'CO'],color='m')
+      plt.plot(df.year[df.state == 'KS'], df.price[df.state == 'KS'],color='cyan')
+      plt.plot(df.year[df.state == 'NE'], df.price[df.state == 'NE'],color='orange')
+
+      plt.legend(['TX','NM','OK','CO','KS','NE'])
+      plt.title('Mountain States Home Price')
+      plt.grid()
+
+![MountainStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437624-f3495d80-93b4-11eb-82b4-595739f91b2c.png)
+
+      plt.plot(df.year[df.state == 'OH'], df.price[df.state == 'OH'],color='yellowgreen')
+      plt.plot(df.year[df.state == 'MI'], df.price[df.state == 'MI'],color='b')
+      plt.plot(df.year[df.state == 'IL'], df.price[df.state == 'IL'],color='springgreen')
+      plt.plot(df.year[df.state == 'MN'], df.price[df.state == 'MN'],color='m')
+      plt.plot(df.year[df.state == 'IN'], df.price[df.state == 'IN'],color='cyan')
+      plt.plot(df.year[df.state == 'ND'], df.price[df.state == 'ND'],color='orange')
+      plt.plot(df.year[df.state == 'SD'], df.price[df.state == 'SD'],color='olive')
+
+      plt.legend(['OH','MI','IL','MN','IN','ND','SD'])
+      plt.title('Midwest States Home Price')
+      plt.grid()
+
+![MidwestStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437659-065c2d80-93b5-11eb-86f8-67810c9cb9bc.png)
 
