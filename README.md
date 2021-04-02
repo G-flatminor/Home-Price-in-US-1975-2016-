@@ -344,8 +344,8 @@ The result is as follows:
       plt.grid()
       plt.legend(['NC','SC','GA','VA','TN','AL','AR','MS','FL'])
       plt.title('Southern States Home Price')
-      
-      US home price.png
+
+US home price.png
 
 
       
