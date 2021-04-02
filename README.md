@@ -61,6 +61,8 @@ We need only the following 3 items:
 + Year
 + Price (annual average)
 
+So we will extract these 3 items from the original dataframe.
+
       home_prices = HPI['index_nsa']
       years = HPI.yr.unique()
       years =sorted(years)
@@ -330,6 +332,9 @@ The result is as follows:
       [51 rows x 42 columns]
 
 ## Home price visualization 1
+We will plot the average home price by state for each year. Rather than putting everything in one figure, we create figures for regions (Northern, Southern, Mountain, Western, and Midwest).
+
++ Southern States
 
       plt.plot(df.year[df.state == 'NC'], df.price[df.state == 'NC'],color='blue')
       plt.plot(df.year[df.state == 'SC'], df.price[df.state == 'SC'],color ='orange')
@@ -347,6 +352,8 @@ The result is as follows:
 
 ![SouthernStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437235-4a026780-93b4-11eb-807d-ec87152a5397.png)
 
++ Nothern States
+
       plt.plot(df.year[df.state == 'DE'], df.price[df.state == 'DE'],color='yellowgreen')
       plt.plot(df.year[df.state == 'NJ'], df.price[df.state == 'NJ'],color='b')
       plt.plot(df.year[df.state == 'NY'], df.price[df.state == 'NY'],color='springgreen')
@@ -363,6 +370,8 @@ The result is as follows:
 
 ![NothernStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437537-c9903680-93b4-11eb-8811-f548c9a1d74e.png)
 
++ Western States
+
       plt.plot(df.year[df.state == 'WA'], df.price[df.state == 'WA'],color='yellowgreen')
       plt.plot(df.year[df.state == 'OR'], df.price[df.state == 'OR'],color='b')
       plt.plot(df.year[df.state == 'CA'], df.price[df.state == 'CA'],color='springgreen')
@@ -376,6 +385,8 @@ The result is as follows:
 
 ![WesternStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437580-dd3b9d00-93b4-11eb-812e-16ced84b1626.png)
 
++ Mountain States
+
       plt.plot(df.year[df.state == 'TX'], df.price[df.state == 'TX'],color='yellowgreen')
       plt.plot(df.year[df.state == 'NM'], df.price[df.state == 'NM'],color='b')
       plt.plot(df.year[df.state == 'OK'], df.price[df.state == 'OK'],color='springgreen')
@@ -388,6 +399,9 @@ The result is as follows:
       plt.grid()
 
 ![MountainStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437624-f3495d80-93b4-11eb-82b4-595739f91b2c.png)
+
+
++ Midwest States
 
       plt.plot(df.year[df.state == 'OH'], df.price[df.state == 'OH'],color='yellowgreen')
       plt.plot(df.year[df.state == 'MI'], df.price[df.state == 'MI'],color='b')
