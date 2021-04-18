@@ -417,3 +417,8 @@ We will plot the average home price by state for each year. Rather than putting 
 
 ![MidwestStatesHomePrice](https://user-images.githubusercontent.com/46631208/113437659-065c2d80-93b5-11eb-86f8-67810c9cb9bc.png)
 
+## Home price visualization 2
+### We conducted another data plot of housing price. This time we tried to understand the housing price trend geographycally.
+
+
+
