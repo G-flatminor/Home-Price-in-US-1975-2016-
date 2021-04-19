@@ -468,9 +468,82 @@ We will plot the average home price by state for each year. Rather than putting 
 ### 1990 Price
 ![House price in 1990](https://user-images.githubusercontent.com/46631208/115177713-cc21aa00-a09d-11eb-94f4-1a405d5cee64.png)
 
+### 1991 Price
+![House price in 1991](https://user-images.githubusercontent.com/46631208/115309368-2ff9b080-a13a-11eb-8e0a-18383426865d.png)
 
+### 1992 Price
+![House price in 1992](https://user-images.githubusercontent.com/46631208/115309415-3e47cc80-a13a-11eb-88e5-cb0fbdc1721b.png)
 
+### 1993 Price
+![House price in 1993](https://user-images.githubusercontent.com/46631208/115309445-4b64bb80-a13a-11eb-9c21-150543923933.png)
 
+### 1994 Price
+![House price in 1994](https://user-images.githubusercontent.com/46631208/115309459-51f33300-a13a-11eb-90aa-96b3487d0329.png)
 
+### 1995 Price
+![House price in 1995](https://user-images.githubusercontent.com/46631208/115309471-57e91400-a13a-11eb-9b85-ea7f1c22af2d.png)
+
+### 1996 Price
+![House price in 1996](https://user-images.githubusercontent.com/46631208/115309492-5f102200-a13a-11eb-82f4-8f611d7bea93.png)
+
+### 1997 Price
+![House price in 1997](https://user-images.githubusercontent.com/46631208/115309512-66cfc680-a13a-11eb-8657-e85ee72f78c8.png)
+
+### 1998 Price
+![House price in 1998](https://user-images.githubusercontent.com/46631208/115309526-6cc5a780-a13a-11eb-84c7-1ff3535a1f8c.png)
+
+### 1999 Price
+![House price in 1999](https://user-images.githubusercontent.com/46631208/115309550-751de280-a13a-11eb-985a-df25aca11940.png)
+
+### 2000 Price
+![House price in 2000](https://user-images.githubusercontent.com/46631208/115309582-7ea74a80-a13a-11eb-8777-f52bdd848e9d.png)
+
+### 2001 Price
+![House price in 2001](https://user-images.githubusercontent.com/46631208/115309608-8535c200-a13a-11eb-849c-728d81f30a82.png)
+
+### 2002 Price
+![House price in 2002](https://user-images.githubusercontent.com/46631208/115309626-8bc43980-a13a-11eb-8fd6-299329a7e1d7.png)
+
+### 2003 Price
+![House price in 2003](https://user-images.githubusercontent.com/46631208/115309652-9252b100-a13a-11eb-9df1-a831e0edffa7.png)
+
+### 2004 Price
+![House price in 2004](https://user-images.githubusercontent.com/46631208/115309674-98e12880-a13a-11eb-9cbd-ff606b644e1f.png)
+
+### 2005 Price
+![House price in 2005](https://user-images.githubusercontent.com/46631208/115309687-9e3e7300-a13a-11eb-8f0c-d2b478a0b73c.png)
+
+### 2006 Price
+![House price in 2006](https://user-images.githubusercontent.com/46631208/115309711-a4345400-a13a-11eb-927c-bef0304ce6e2.png)
+
+### 2007 Price
+![House price in 2007](https://user-images.githubusercontent.com/46631208/115309733-ab5b6200-a13a-11eb-8881-2d895747201c.png)
+
+### 2008 Price
+![House price in 2008](https://user-images.githubusercontent.com/46631208/115309749-b31b0680-a13a-11eb-9afe-7b02063d719d.png)
+
+### 2009 Price
+![House price in 2009](https://user-images.githubusercontent.com/46631208/115309777-bb734180-a13a-11eb-8f58-56e20ca151a6.png)
+
+### 2010 Price
+![House price in 2010](https://user-images.githubusercontent.com/46631208/115309804-c6c66d00-a13a-11eb-8c2a-05dde78df11c.png)
+
+### 2011 Price
+![House price in 2011](https://user-images.githubusercontent.com/46631208/115309827-ce861180-a13a-11eb-85dc-af36985ac0ca.png)
+
+### 2012 Price
+![House price in 2012](https://user-images.githubusercontent.com/46631208/115309858-db0a6a00-a13a-11eb-9416-292b0a0cc2b1.png)
+
+### 2013 Price
+![House price in 2013](https://user-images.githubusercontent.com/46631208/115309876-e1004b00-a13a-11eb-8d74-35191b84ae61.png)
+
+### 2014 Price
+![House price in 2014](https://user-images.githubusercontent.com/46631208/115309919-f1b0c100-a13a-11eb-87a3-ed391cdd2d97.png)
+
+### 2015 Price
+![House price in 2015](https://user-images.githubusercontent.com/46631208/115309947-faa19280-a13a-11eb-86a2-20935e078824.png)
+
+### 2016 Price
+![House price in 2016](https://user-images.githubusercontent.com/46631208/115309988-0a20db80-a13b-11eb-9f4e-dc451e8a80ef.png)
 
 
