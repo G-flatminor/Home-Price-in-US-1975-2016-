@@ -420,5 +420,57 @@ We will plot the average home price by state for each year. Rather than putting 
 ## Home price visualization 2
 ### We conducted another data plot of housing price. This time we tried to understand the housing price trend geographycally.
 
+### 1975 Price
+![House price in 1975](https://user-images.githubusercontent.com/46631208/115177460-49005400-a09d-11eb-9a79-882893c43966.png)
+
+### 1976 Price
+![House price in 1976](https://user-images.githubusercontent.com/46631208/115177481-53bae900-a09d-11eb-9d81-d80b8d28e70b.png)
+
+### 1977 Price
+![House price in 1977](https://user-images.githubusercontent.com/46631208/115177503-603f4180-a09d-11eb-9534-3c4c1a0ebfe8.png)
+
+### 1978 Price
+![House price in 1978](https://user-images.githubusercontent.com/46631208/115177528-6c2b0380-a09d-11eb-8c94-7759ead5b0c0.png)
+
+### 1979 Price
+![House price in 1979](https://user-images.githubusercontent.com/46631208/115177549-764d0200-a09d-11eb-8c29-1d4459ef9674.png)
+
+### 1980 Price
+![House price in 1980](https://user-images.githubusercontent.com/46631208/115177561-7d741000-a09d-11eb-96ad-91e37ab9450a.png)
+
+### 1981 Price
+![House price in 1981](https://user-images.githubusercontent.com/46631208/115177581-85cc4b00-a09d-11eb-9ee7-4f134148aaa6.png)
+
+### 1982 Price
+![House price in 1982](https://user-images.githubusercontent.com/46631208/115177606-8e248600-a09d-11eb-91af-a4dd71445f39.png)
+
+### 1983 Price
+![House price in 1983](https://user-images.githubusercontent.com/46631208/115177617-94b2fd80-a09d-11eb-8959-b23237394790.png)
+
+### 1984 Price
+![House price in 1984](https://user-images.githubusercontent.com/46631208/115177628-9d0b3880-a09d-11eb-87e1-ebbd42b0b863.png)
+
+### 1985 Price
+![House price in 1985](https://user-images.githubusercontent.com/46631208/115177643-a399b000-a09d-11eb-8957-bfdf1608ef3c.png)
+
+### 1986 Price
+![House price in 1986](https://user-images.githubusercontent.com/46631208/115177658-ab595480-a09d-11eb-8724-d5e3e37b2cd1.png)
+
+### 1987 Price
+![House price in 1987](https://user-images.githubusercontent.com/46631208/115177671-b44a2600-a09d-11eb-8e3b-0e71c37a131a.png)
+
+### 1988 Price
+![House price in 1988](https://user-images.githubusercontent.com/46631208/115177684-bad89d80-a09d-11eb-8a0f-f2eb58d259f0.png)
+
+### 1989 Price
+![House price in 1989](https://user-images.githubusercontent.com/46631208/115177698-c1ffab80-a09d-11eb-8979-f4df9e0aa406.png)
+
+### 1990 Price
+![House price in 1990](https://user-images.githubusercontent.com/46631208/115177713-cc21aa00-a09d-11eb-94f4-1a405d5cee64.png)
+
+
+
+
+
 
 
